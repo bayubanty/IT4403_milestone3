@@ -1,1 +1,22 @@
+{
+  "items": [
+    {
+      "title": "HTML & CSS",
+      "authors": ["Jon Duckett"],
+      "publisher": "Wiley",
+      "publishedDate": "2011",
+      "thumbnail": "https://via.placeholder.com/100x150?text=HTML+%26+CSS",
+      "description": "A book about web development basics."
+    },
+    {
+      "title": "JavaScript: The Good Parts",
+      "authors": ["Douglas Crockford"],
+      "publisher": "O'Reilly Media",
+      "publishedDate": "2008",
+      "thumbnail": "https://via.placeholder.com/100x150?text=JS+Good+Parts",
+      "description": "A deep dive into the core of JavaScript."
+    }
+    // Add more books up to 50 as needed...
+  ]
+}
 
