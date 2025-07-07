@@ -1,1 +1,47 @@
-
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+}
+button {
+  padding: 10px;
+}
+#results, #bookshelf {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+.book {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+  background-color: #fff;
+}
+#pagination {
+  margin-top: 20px;
+}
+.page-btn {
+  padding: 8px;
+  margin: 2px;
+  cursor: pointer;
+}
+.page-btn.active {
+  font-weight: bold;
+  color: green;
+}
+#details {
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
